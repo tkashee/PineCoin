@@ -58,6 +58,7 @@ function ResponsiveAppBar() {
                   maxWidth: { xs: 80, md: 80 },
                   borderRadius: '50%',
                   mr: 1,
+                  display: { xs: 'none', md: 'block' }
                 }}
                 alt=""
                 src={logo}
@@ -128,7 +129,8 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Typography
+          {/* Removed the smaller logo on mobile to avoid duplicate logos */}
+          {/* <Typography
             variant="h5"
             noWrap
             component="a"
@@ -156,7 +158,7 @@ function ResponsiveAppBar() {
               alt=""
               src={logo}
             />
-          </Typography>
+          </Typography> */}
         </Toolbar>
       </Container>
     </AppBar>

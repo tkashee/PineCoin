@@ -82,13 +82,13 @@ export default function ReferralCode() {
             type="submit"
             fullWidth
             variant="solid"
-            style={{ backgroundColor: '#FE6B35', borderRadius: "5em", boxShadow: '0 0 8px #FE6B35' }}
+            style={{ backgroundColor: '#00B140', borderRadius: "5em", boxShadow: '0 0 8px #00B140' }}
             sx={{
               mt: 3,
               mb: 2,
               '&:hover': {
-                backgroundColor: '#FF7A4A',
-                boxShadow: '0 0 12px #FF7A4A',
+                backgroundColor: '#00FF00',
+                boxShadow: '0 0 12px #00FF00',
               }
             }}
           >
@@ -96,11 +96,11 @@ export default function ReferralCode() {
           </Button>
           <Grid container >
             <Grid item>
-              <Link style={{ color: '#FE6B35', borderRadius: "5em", textShadow: '0 0 6px #FE6B35' }} href="/home" variant="body1"
+              <Link style={{ color: '#00B140', borderRadius: "5em", textShadow: '0 0 6px #00B140' }} href="/home" variant="body1"
                 sx={{
                   '&:hover': {
-                    color: '#FF7A4A',
-                    textShadow: '0 0 8px #FF7A4A',
+                    color: '#00FF00',
+                    textShadow: '0 0 8px #00FF00',
                   }
                 }}
               >
